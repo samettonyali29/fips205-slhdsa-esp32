@@ -1,0 +1,33 @@
+{
+  "name": "fips205-slhdsa-esp32",
+  "version": "0.1.0",
+  "description": "SLH-DSA (FIPS 205) stateless hash-based post-quantum signatures for ESP32. All 12 parameter sets (SHA2/SHAKE, 128/192/256, s/f). Based on slhdsa-c with hardware RNG support, stack wiping and optional SHA hardware acceleration.",
+  "keywords": "post-quantum, cryptography, digital-signature, slhdsa, sphincs, fips205, pqc, hash-based",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "The fips205-slhdsa-esp32 authors",
+      "maintainer": true
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "headers": [
+    "SLHDSA.h",
+    "SLHDSA_NVS.h",
+    "slhdsa_esp32.h",
+    "slhdsa_esp32_config.h",
+    "slh_dsa.h",
+    "slh_prehash.h"
+  ],
+  "export": {
+    "exclude": [
+      "scripts/.acvp-data"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ANONYMIZED-FOR-REVIEW/fips205-slhdsa-esp32.git"
+  },
+  "homepage": "https://github.com/ANONYMIZED-FOR-REVIEW/fips205-slhdsa-esp32"
+}

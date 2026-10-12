@@ -1,0 +1,67 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+SLHDSA	KEYWORD1
+SLHDSA_NVS	KEYWORD1
+SLHDSA_SHA2_128s	KEYWORD1
+SLHDSA_SHAKE_128s	KEYWORD1
+SLHDSA_SHA2_128f	KEYWORD1
+SLHDSA_SHAKE_128f	KEYWORD1
+SLHDSA_SHA2_192s	KEYWORD1
+SLHDSA_SHAKE_192s	KEYWORD1
+SLHDSA_SHA2_192f	KEYWORD1
+SLHDSA_SHAKE_192f	KEYWORD1
+SLHDSA_SHA2_256s	KEYWORD1
+SLHDSA_SHAKE_256s	KEYWORD1
+SLHDSA_SHA2_256f	KEYWORD1
+SLHDSA_SHAKE_256f	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+generateKeypair	KEYWORD2
+generateKeypairFromSeed	KEYWORD2
+sign	KEYWORD2
+signDeterministic	KEYWORD2
+signPreHash	KEYWORD2
+verify	KEYWORD2
+verifyPreHash	KEYWORD2
+publicKeyFromSecretKey	KEYWORD2
+hardwareSha	KEYWORD2
+slhdsa_esp32_coop	KEYWORD2
+slhdsa_esp32_hw_sha_active	KEYWORD2
+slhdsa_esp32_hw_begin	KEYWORD2
+slhdsa_esp32_hw_end	KEYWORD2
+saveKeypair	KEYWORD2
+loadKeypair	KEYWORD2
+loadPublicKey	KEYWORD2
+hasKeypair	KEYWORD2
+eraseKeypair	KEYWORD2
+generateAndSave	KEYWORD2
+slhdsa_esp32_randombytes	KEYWORD2
+slh_keygen_internal	KEYWORD2
+slh_sign	KEYWORD2
+slh_verify	KEYWORD2
+slh_sign_internal	KEYWORD2
+slh_verify_internal	KEYWORD2
+hash_slh_sign	KEYWORD2
+hash_slh_verify	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+SLHDSA_ERR_FAIL	LITERAL1
+SLHDSA_ERR_RNG_FAIL	LITERAL1
+SLHDSA_ERR_INVALID_SIGNATURE	LITERAL1
+SLHDSA_ERR_INVALID_KEY	LITERAL1
+SLHDSA_ERR_INVALID_ARG	LITERAL1
+SECURITY_CATEGORY	LITERAL1
+FAST	LITERAL1
+SHAKE	LITERAL1
+N	LITERAL1
+PUBLIC_KEY_SIZE	LITERAL1
+SECRET_KEY_SIZE	LITERAL1
+SIGNATURE_SIZE	LITERAL1
+SEED_SIZE	LITERAL1
+MAX_CONTEXT_SIZE	LITERAL1
+SLHDSA_ESP32_HW_SHA	LITERAL1
